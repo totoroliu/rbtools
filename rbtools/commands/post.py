@@ -255,6 +255,7 @@ class Post(Command):
         Command.perforce_options,
         Command.subversion_options,
         Command.tfs_options,
+        Command.git_options,
     ]
 
     def post_process_options(self):
